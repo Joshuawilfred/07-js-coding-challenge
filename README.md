@@ -29,10 +29,13 @@ npm run dev
   Built using the default architecture from running `npm create vite@latest`
 - Are there any improvements you could make to your submission?
   <br>
-  Would implement simple authentication using PHP
+  - Would make the website Responsive
+  - Would implement simple authentication using PHP
 - What would you do differently if you were allocated more time?
   <br>
   Figure out how to add a default image if link of original image was broken, instead of depending on `'onError={(e) => { e.target.alt = " "; }}'` to handle that state
+  <br>
+  Would add responsiveness to the site
 
 
 ## Other Notes
