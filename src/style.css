@@ -1,0 +1,246 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Custom Variables */
+  --color-white: #fbfcfc;
+  --color-second: #f2f4f4;
+  --color-mute: #424949;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  margin: auto 0.3em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.headerBar {
+  background: rgb(11, 123, 224);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 123, 224, 1) 2%,
+    rgba(0, 34, 143, 1) 100%
+  );
+  width: 100%;
+  height: 4rem;
+  padding: 0 2%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+.header-title a {
+  text-decoration: none;
+}
+.header-title h1 {
+  user-select: none;
+  color: var(--color-white);
+}
+
+.header-buttons .login {
+  background-color: transparent;
+  color: var(--color-white);
+}
+.header-buttons .sign-up {
+  color: var(--color-white);
+}
+
+.headerSec {
+  width: 100%;
+  color: var(--color-second);
+  padding: 0 2%;
+  margin-bottom: 2%;
+  background: rgb(52, 48, 48);
+  background: linear-gradient(
+    180deg,
+    rgba(52, 48, 48, 1) 2%,
+    rgba(65, 65, 65, 1) 100%
+  );
+}
+
+.card-show {
+  display: flex;
+}
+
+.card-show .card {
+  display: block;
+  margin: auto 2%;
+  padding: 1%;
+}
+
+.card-show .card div {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-second);
+  background-color: #333;
+  background-image: url(assets/placeholder.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-show .card div h2 {
+  text-align: center;
+  user-select: none;
+}
+
+.card-show .card a {
+  text-decoration: none;
+}
+.card-show .card span {
+  color: var(--color-mute);
+}
+.movie-cabinet {
+  display: grid;
+  width: fit-content;
+  margin: 0 auto;
+  grid-template-columns: 8rem 8rem 8rem 8rem 8rem 8rem 8rem;
+}
+.movie-card {
+  font-size: 0.8rem;
+  height: 12rem;
+  display: block;
+  margin: auto 1%;
+  padding: 1%;
+}
+.movie-card .spawned {
+  display: inline-flex;
+  width: 100%;
+}
+.movie-card .spawned .labled {
+  padding-right: 2%;
+  font-weight: 500;
+}
+.movie-card .movie-img {
+  height: 9rem;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  background-size: 200% 100%;
+  animation: 1s shine linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+.movie-card .movie-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.actionbar{
+  justify-content: center;
+  align-items: center;
+  width: 66%;
+  margin: 5% auto;
+}
+.actionbar .actionbar-info{
+  font-size: 1.2rem;
+}
+.actionbar-buttons{
+  float: right;
+}
+.actionbar button{
+  color: var(--color-white);
+}
+.footer {
+  margin-top: 50vh;
+  position: relative;
+  bottom: -2;
+  background-color: #333;
+  color: var(--color-white);
+  padding: 20px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .iconify {
+  height: 24px;
+}
+
+.footer .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer .col-md-3 {
+  flex-basis: 2auto;
+  padding: 10px;
+}
+
+.footer .footer-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .footer-menu li {
+  margin-bottom: 10px;
+}
+
+.footer .footer-menu a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.footer .footer-menu a:hover {
+  color: #ffa500;
+}
+
+.footer .footer-social {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .footer-social a {
+  color: var(--color-white);
+}
+
+.footer .footer-social a:hover {
+  color: #ffa500;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer .app-store-links {
+  text-align: center;
+}
+
+.footer .app-store-links a {
+  margin: 0 10px;
+}
+
+.footer .app-store-links a img {
+  width: 100px;
+}
