@@ -33,9 +33,8 @@ npm run dev
   - Would implement simple authentication using PHP
 - What would you do differently if you were allocated more time?
   <br>
-  Figure out how to add a default image if link of original image was broken, instead of depending on `'onError={(e) => { e.target.alt = " "; }}'` to handle that state
-  <br>
-  Would add responsiveness to the site
+  - Figure out how to add a default image if link of original image was broken, instead of depending on `'onError={(e) => { e.target.alt = " "; }}'` to handle that state
+  - Would add responsiveness to the site
 
 
 ## Other Notes
