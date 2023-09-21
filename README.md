@@ -2,7 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Joshuawilfred/07-js-coding-challenge)
 <br>
-A React-based web application to browse and discover popular series and movied.
+A React-based web application to browse and discover popular series and movies.
 
 
 ## Getting Started
