@@ -1,0 +1,33 @@
+.
+├── data.json
+├── index.html
+├── map.txt
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── placeholder.png
+│   │   ├── social
+│   │   │   ├── facebook-blue.svg
+│   │   │   ├── facebook-white.svg
+│   │   │   ├── instagram-blue.svg
+│   │   │   ├── instagram-white.svg
+│   │   │   ├── twitter-blue.svg
+│   │   │   └── twitter-white.svg
+│   │   └── store
+│   │       ├── app-store.svg
+│   │       ├── play-store.svg
+│   │       └── windows-store.svg
+│   ├── components
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── MainContent.jsx
+│   │   ├── MoviesList.jsx
+│   │   └── SeriesList.jsx
+│   ├── main.jsx
+│   └── style.css
+└── vite.config.js
+
+5 directories, 25 files
